@@ -39,17 +39,20 @@ nav p{
 }
 nav .sitecontainer{
   justify-content: space-between;
+  align-self: flex-end;
 }
 .top{
   width: 100%;
   background-image: url("./images/moto.jpeg");
   background-size: cover;
   height:27.82rem;
+  display: flex;
   flex-direction: column;
+  align-content: space-between;
 }
 .block{
   width: 20rem;
-  height:5rem;
+  height:9rem;
   margin-top: 9rem;
   background-color: black;
 }
