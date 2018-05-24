@@ -70,18 +70,21 @@ nav .sitecontainer{
 }
 .items .itemcontainer img{
   height:9rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border: 4px solid black;
-
+  margin-top: 2rem;
+  margin-bottom:2rem;
 }
 .items .sitecontainer{
   justify-content: space-between;
 }
 .items .itemcontainer{
   width: 30%;
+  border: 4px solid black;
   display: flex;
   flex-direction:column;
+}
+.items .itemcontainer .imagecontainer{
+  display: flex;
+  justify-content: center;
 }
 .title{
   background-color: black;
