@@ -68,13 +68,27 @@ nav .sitecontainer{
   margin-left: 3rem;
   margin-bottom: 0.25rem;
 }
+.items .sitecontainer{
+  justify-content: space-between;
+}
 .items .itemcontainer img{
   height:9rem;
   margin-top: 2rem;
   margin-bottom:2rem;
+  max-width: 100%;
 }
-.items .sitecontainer{
-  justify-content: space-between;
+.items .itemcontainerglasses{
+  width: 30%;
+  border: 4px solid black;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+.items .itemcontainerglasses img{
+  height:9rem;
+  margin-top: 2rem;
+  margin-bottom:2rem;
+  max-width: 50%;
 }
 .items .itemcontainer{
   width: 30%;
