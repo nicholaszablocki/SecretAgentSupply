@@ -8,6 +8,7 @@ body{
 .sitecontainer{
   display: flex;
   width:960px;
+  margin: 0 auto;
 }
 header{
   background-color: black;
@@ -51,8 +52,18 @@ nav .sitecontainer{
   align-content: space-between;
 }
 .block{
-  width: 20rem;
-  height:9rem;
+  width: 25rem;
+  height:9.5rem;
   margin-top: 9rem;
   background-color: black;
+  font-weight: bold;
+}
+.block h2{
+  font-size: 2rem;
+  margin-left: 3rem;
+}
+.block p{
+  margin-top: 2rem;
+  margin-left: 3rem;
+  margin-bottom: 0.25rem;
 }
