@@ -89,6 +89,24 @@ nav .sitecontainer{
   margin-top: 2rem;
   margin-bottom:2rem;
   max-width: 50%;
+  max-height: 40%;
+}
+.items .itemcontainerglasses .imagecontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.items .itemcontainer{
+  width: 30%;
+  border: 4px solid black;
+  display: flex;
+  flex-direction:column;
+}
+.items .itemcontainer img{
+  height:9rem;
+  margin-top: 2rem;
+  margin-bottom:2rem;
+  max-width: 50%;
 }
 .items .itemcontainer{
   width: 30%;
