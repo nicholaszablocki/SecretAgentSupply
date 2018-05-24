@@ -91,3 +91,28 @@ nav .sitecontainer{
   justify-content: center;
   margin-top:0;
 }
+.infobox{
+  display: flex;
+  flex-direction: column;
+  width:35%;
+}
+.infoboxtop{
+  height: 3rem;
+  background-color: black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.info .sitecontainer{
+  justify-content: space-between;
+}
+.info{
+  margin-top: 3rem;
+}
+footer{
+  height: 5rem;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  margin-top:4rem;
+}
