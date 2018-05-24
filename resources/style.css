@@ -33,6 +33,7 @@ nav{
   background-color: firebrick;
   display: flex;
   justify-content: center;
+  margin-bottom:3rem;
 }
 nav p{
   margin-top: 0.751rem;
@@ -66,4 +67,27 @@ nav .sitecontainer{
   margin-top: 2rem;
   margin-left: 3rem;
   margin-bottom: 0.25rem;
+}
+.items .itemcontainer img{
+  height:9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border: 4px solid black;
+
+}
+.items .sitecontainer{
+  justify-content: space-between;
+}
+.items .itemcontainer{
+  width: 30%;
+  display: flex;
+  flex-direction:column;
+}
+.title{
+  background-color: black;
+  height:2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:0;
 }
