@@ -36,8 +36,11 @@ nav{
   margin-bottom:3rem;
 }
 nav p{
-  margin-top: 0.751rem;
+  margin-top: 0.75rem;
   margin-bottom:0.75rem;
+}
+nav .sitecontainer span{
+  display:none;
 }
 nav .sitecontainer{
   justify-content: space-between;
@@ -161,4 +164,18 @@ footer{
   .sitecontainer{
     width: 100%;
   }
+  nav .sitecontainer span{
+    display: block;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+  nav .sitecontainer p{
+    display:none;
+  }
+  nav .sitecontainer{
+      justify-content: center;
+  }
+}
+@media only screen and (max-width: 470px){
+  
 }
