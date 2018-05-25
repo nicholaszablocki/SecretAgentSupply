@@ -99,6 +99,25 @@ nav .sitecontainer{
   justify-content: center;
   align-items: center;
 }
+.items .itemcontainerwatch{
+  width: 30%;
+  border: 4px solid black;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+.items .itemcontainerwatch img{
+  height:9rem;
+  margin-top: 2rem;
+  margin-bottom:2rem;
+  max-width: 50%;
+  max-height: 40%;
+}
+.items .itemcontainerwatch .imagecontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .items .itemcontainer{
   width: 30%;
   border: 4px solid black;
@@ -177,5 +196,24 @@ footer{
   }
 }
 @media only screen and (max-width: 470px){
-  
+    header{
+    margin-bottom: 10rem;
+  }
+    .block h2{
+     font-size: 1rem;
+     font-weight: bold;
+     margin-left: 2rem;
+    }
+    .block p{
+     margin-left: 2rem;
+     margin-top: 1rem;
+     font-size: 0.77rem;
+     font-weight: bold;
+  }
+  .sitecontainer{
+    width: 100%;
+  }
+  .items .itemcontainerwatch{
+    display:none;
+  }
 }
